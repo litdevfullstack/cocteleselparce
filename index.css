@@ -1,0 +1,28 @@
+html {
+    color: #0000;
+}
+
+body {
+    background-image: url('/carta.jfif');
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center center; /* Centrar la imagen */
+    background-attachment: fixed; /* Fijar la imagen en el fondo */
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      display: flex;
+      justify-content: center;
+      background-color: #0000;
+      background-image: url(/carta.jfif);
+      background-size: 100% auto; /* Ajustar al ancho de la pantalla, mantener la altura proporcional */
+      background-position: center center;
+      background-attachment: fixed;
+      background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+    }
+  }
+  
+  
